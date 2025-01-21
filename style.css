@@ -96,4 +96,8 @@ body{
     border-radius: 5px;
     padding: .5em;
     cursor: pointer;
+
+    &:active{
+        transform: translateY(-5px);
+    }
 }
